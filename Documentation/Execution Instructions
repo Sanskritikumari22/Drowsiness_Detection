@@ -1,0 +1,22 @@
+AI-Driven Multimodal Posture and Action Analysis for Detecting Workplace Fatigue
+
+Introduction:
+This script performs real-time drowsiness and head-down detection using a webcam. It uses:
+•	YOLOv11 (a custom-trained object detection model) to classify the user's state (Drowsy, Awake)
+•	MediaPipe to detect facial landmarks and calculate eye aspect ratio (EAR) for fatigue detection
+•	Streamlit to display the live feed and stats in a web interface
+•	Tkinter to show popup alerts when drowsiness or head-down is detected
+
+Software Used:
+Execution Platform:     VS Studios with all libraries installed 
+			All dependencies are installed using pip install <command> . 
+The list includes various python libraries such as OpenCV, Scripy library, ultralytics library (used for YOLO), Mediapipe (for face mesh), streamlit library and may more. 
+Supported Language:   python 
+
+Instructions to Execute the code:
+Set up the environment 
+For Windows as in this case, 
+	Open terminal
+	Open the location of the code using cd < path> command
+	streamlit run <file_name>.py   // here the file name "finalcode"
+(ensure the libraries are installed and updated) 
